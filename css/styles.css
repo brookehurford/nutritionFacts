@@ -11,10 +11,18 @@ h1 {
   padding-left: 5px;
 }
 
-p {
+.servings {
   line-height: 2px;
   padding-left: 5px;
   margin-top: 2px;
+}
+
+.amount {
+  font-size: 10px;
+}
+
+td .servings {
+  font-size: 8px;
 }
 
 .divide {
@@ -54,7 +62,10 @@ tbody tr td:last-child {
 }
 
 .smallText {
-  font-size: 10px;
+  line-height: 3px;
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 8.5px;
 }
 
 .blankcell {
@@ -62,11 +73,10 @@ tbody tr td:last-child {
   border-top: 0;
 }
 
-/*.indent {
-  padding-left: 15px;
-  border-style: inset;
-}*/
+.bottom {
+  border-bottom: 1px solid black;
+}
 
-/*tbody tr td {
-  border: 1px solid red;
-}*/
+.indent {
+  padding-left: 4px;
+}
