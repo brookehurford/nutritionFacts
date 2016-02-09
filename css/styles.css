@@ -24,12 +24,49 @@ p {
   margin-left: 5px;
 }
 
+.smallDivide {
+  background-color: black;
+  height: 5px;
+  width: 95%;
+  margin-left: 5px;
+}
+
 .label {
   border: 1px solid black;
   width: 235px;
   height: 475px;
 }
 
-tbody tr td:first-child {
-  border-bottom: 1px solid black;
+tbody tr td {
+  border-top: 1px solid black;
 }
+
+table {
+  /*border: 1px solid red;*/
+  width: 223px;
+  margin-left: 5px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tbody tr td:last-child {
+  text-align: right;
+}
+
+.smallText {
+  font-size: 10px;
+}
+
+.blankcell {
+  width: 1rem;
+  border-top: 0;
+}
+
+/*.indent {
+  padding-left: 15px;
+  border-style: inset;
+}*/
+
+/*tbody tr td {
+  border: 1px solid red;
+}*/
