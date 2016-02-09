@@ -80,3 +80,21 @@ tbody tr td:last-child {
 .indent {
   padding-left: 4px;
 }
+
+.indent2 {
+  padding-left: 8px;
+}
+
+#tinyTable tr td {
+  border-top: 0px;
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+
+#tinyTable tr td:last-child {
+  text-align: left;
+}
+
+thead {
+  border-bottom: 1px solid black;
+}
